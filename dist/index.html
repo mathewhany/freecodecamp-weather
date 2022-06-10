@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Weather</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container" id="page-content">
+  <div class="text-center">
+    <div id="location">
+      <div id="city"></div>
+      <div id="country"></div>
+    </div>
+    <div id="temperature"></div>
+    <div id="icon">
+      <i></i>
+    </div>
+  </div>
+</div>
+
+<div id="unit">
+  <div class="btn-group pull-right" data-toggle="buttons">
+    <label class="btn btn-default active">
+      <input type="radio" name="unit"  value="c" autocomplete="off" checked> &deg;C
+    </label>
+    <label class="btn btn-default">
+      <input type="radio" name="unit" value="f" autocomplete="off"> &deg;F
+    </label>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
